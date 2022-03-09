@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100&family=Rajdhani:wght@400;700&display=swap');
+
+.container {
+    width: 100vw;
+    height: 100vh;
+      
+    position: absolute;
+    
+    background: linear-gradient(260.22deg, #FFCCA7 31.29%, rgba(255, 204, 167, 0.486542) 79.4%, rgba(255, 204, 167, 0) 100.64%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container.switch{
+    background: linear-gradient(260.22deg, #354b72 31.29%, rgba(141, 148, 252, 0.623) 79.4%, rgba(167, 173, 255, 0) 100.64%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.box {
+    position: absolute;
+    width: 438px;
+    height: 360px;
+    left: 60%;
+}
+input{
+    top: 5%;
+    margin-top: 10%;
+    
+    width: 312px;
+    height: 38px;
+
+    background: rgba(255, 255, 255, 0.88);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.14);
+    border: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    
+    width: 271px;
+    height: 70px;
+    
+    background: #FFCCA7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 28px;
+
+    
+}
+.btn.switch{
+    color: #354b72;
+    background-color: #FFFFFF;
+}
+
+.cadastro{
+    width: 271px;
+    height: 70px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFCCA7;
+}
+
+label{
+
+    width: 130px;
+    height: 24px;
+    margin-top: 4%;
+    margin-left: -40%;
+
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: bo;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #fdb887;
+}
+
+body {
+    margin: 0px;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #FFF8F4;
+}
+.footer {
+    width: 404px;
+height: 24px;
+
+font-family: 'M PLUS 1 Code', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFF8F4;
+margin-top: 8%;
+margin-left: 20%;
+}
+
+#sideText{
+    position: absolute;
+    width: 400px;
+    height: 310px;
+
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    /* or 117% */
+
+
+    margin-left: -45%;
+
+    letter-spacing: 0.1em;
+
+    color: rgba(255, 255, 255, 0.8);
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.custom-shape-divider-top-1644967904 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1644967904 svg {
+    position: relative;
+    display: block;
+    width: calc(161% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-top-1644967904 .shape-fill {
+    fill: #FFFFFF;
+}
+
+#topText{
+
+position: absolute;
+
+margin-top: -29%;
+margin-left: 38%;
+
+width: 245px;
+height: 68px;
+
+
+
+font-family: 'M PLUS 1 Code', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+
+color: #FFF8F4;
+}
+
+#switch{
+    position: absolute;
+    right: 2%;
+    top: 3%;
+    color: #fdb887;
+    z-index: 1;
+}

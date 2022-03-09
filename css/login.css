@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100&family=Rajdhani:wght@400;700&display=swap');
+
+.container {
+    width: 100vw;
+    height: 100vh;
+      
+    position: absolute;
+    
+    background: linear-gradient(260.22deg, #FFCCA7 31.29%, rgba(255, 204, 167, 0.486542) 79.4%, rgba(255, 204, 167, 0) 100.64%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    position: absolute;
+    width: 438px;
+    height: 360px;
+    left: 60%;
+
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+}
+input{
+    top: 5%;
+    margin-top: 1%;
+    
+    width: 312px;
+    height: 38px;
+
+    background: rgba(255, 255, 255, 0.88);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.14);
+    border: none;
+}
+
+form{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    
+    width: 121px;
+    height: 44px;
+
+    background: #FFCCA7;
+    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.45);
+    border-radius: 28px;
+    
+    margin-top: 7%;
+    color: #FFF8F4;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+
+    
+}
+
+label{
+
+    width: 130px;
+    height: 24px;
+    margin-top: 5%;
+    margin-left: -40%;
+
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: bo;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #fdb887;
+}
+
+body {
+    margin: 0px;
+    color: #FFF8F4;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #FFF8F4;
+}
+.footer {
+    width: 404px;
+height: 24px;
+
+font-family: 'M PLUS 1 Code', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFF8F4;
+margin-top: 5%;
+margin-left: 20%;
+}
+
+#sideText{
+    position: absolute;
+    width: 334px;
+    height: 310px;
+
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    /* or 117% */
+
+
+    margin-left: -45%;
+
+    letter-spacing: 0.1em;
+
+    color: rgba(255, 255, 255, 0.8);
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.custom-shape-divider-top-1644967904 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1644967904 svg {
+    position: relative;
+    display: block;
+    width: calc(161% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-top-1644967904 .shape-fill {
+    fill: #FFFFFF;
+}
+
+#topText{
+
+position: absolute;
+
+margin-top: -29%;
+margin-left: 38%;
+
+width: 245px;
+height: 68px;
+
+
+
+font-family: 'M PLUS 1 Code', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+
+color: rgba(255, 255, 255, 0.8);
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

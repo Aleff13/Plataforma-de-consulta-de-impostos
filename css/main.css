@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100&family=Rajdhani:wght@400;700&display=swap');
+
+.custom-shape-divider-top-1643482459 {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+
+}
+
+.custom-shape-divider-top-1643482459 svg {
+    
+    position: relative;
+    display: block;
+    width: calc(124% + 1.3px);
+    height: 98px;
+
+}
+
+.custom-shape-divider-top-1643482459 .shape-fill {
+
+    fill: #ffffff70;
+}
+
+body{
+
+    background: linear-gradient(260.22deg, #FFCCA7 31.29%, rgba(255, 204, 167, 0.486542) 79.4%, rgba(255, 204, 167, 0) 100.64%);
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+ 
+}
+#content{
+
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    left: 10%;
+    top: 20%;
+    /* border-radius: 180px 20px 80px 25px; */
+    /* background-color: #ffffff2f; */
+    align-items: center;
+
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+
+}
+
+#switchClick{
+
+    position: absolute;
+    left: 15%;
+    top: 22.5%;
+    height: 5%;
+    border-radius: 50%;
+    background-color: #eaafc8;
+    border-color: #FFFFFF;
+
+}
+
+#options{
+
+    height: 10%;
+    border-radius: 28px;
+
+    margin-left: 40%;
+    margin-top: 15px;
+    
+    /* background: linear-gradient(260.22deg, #FFCCA7 31.29%, rgba(255, 204, 167, 0.486542) 79.4%, rgba(255, 204, 167, 0) 100.64%); */
+    background: #FFCCA7;
+ 
+    border-color: #FFFFFF;
+
+    border: none;
+
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+
+    color: #686868;
+
+}
+
+#icms-st{
+
+    display: flex;
+
+}
+
+#ISS{
+
+    display: none;
+
+}
+#IRPJ{
+
+    display: none;
+
+}
+
+form{
+     
+    width: 15%;
+    height: 40%;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    align-items: center;
+    border-radius: 15px;
+
+    border-width: 1px;
+    border-color: #000000;
+
+}
+
+input{
+
+    margin: 1%;
+
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+
+    color: #686868;
+    
+    width: 312px;
+    height: 38px;
+
+    background: rgba(255, 255, 255, 0.88);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.14);
+    border: none;
+
+}
+
+input:hover{
+    background-color: #ffffff31;
+    transition: all 1s;
+}
+
+#icmsSubmit, #issSubmit, #irrfSubmit{
+
+    width: 121px;
+    height: 44px;
+
+    background: #FFCCA7;
+    box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.45);
+    border-radius: 28px;
+    
+    margin-top: 3%;
+    color: #FFF8F4;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+
+    margin-left: 38%;
+
+}
+
+#icmsSubmit:hover{
+
+    background: #ff9244;  /* fallback for old browsers */
+
+    transition: all 2s;
+
+}
+
+#issSubmit:hover{
+    
+    background: #ff9244;  /* fallback for old browsers */
+
+    transition: all 2s;
+
+}
+
+#irrfSubmit:hover{
+    
+    background: #ff9244;  /* fallback for old browsers */
+
+    transition: all 2s;
+
+}
+
+#display{
+
+
+    width: 562px;
+    height: 280px;
+
+    background: rgba(255, 255, 255, 0.39);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+
+    margin-top: 15%;
+
+    margin-left: 50%;
+
+    /* background: rgba(255, 255, 255, 0.6); */
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 28px; */
+
+    /* font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Playfair Display', serif; */
+
+    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    /* or 117% */
+
+    letter-spacing: 0.1em;
+
+    color: rgba(255, 255, 255, 0.8);
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    -webkit-box-shadow: 5px 10px 23px -4px #000000; 
+    box-shadow: 5px 10px 23px -4px #000000;
+    
+    text-align: center;
+
+    text-indent: 0%;
+
+    font-display: initial;
+
+    font-size: 200%;
+
+}
+#displayText{
+    padding-top: 70px;
+}
